@@ -28,11 +28,11 @@ const countLetters = (string, letter) => {
     let count = 0;
     for (let x = 0; x < string.length; x++) {
         if (string.charAt(x) === letter) {
-            count++;
-            return (count);
+            count++;            
         }
     }
+    return count
 }
 
 
-console.log(countLetters('Hello my name is John', 'i'))
+console.log(countLetters('Hello my name is John', 'l'))
